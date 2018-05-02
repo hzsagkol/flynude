@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
   .addField("**Eğlence ve Kullanıcı Komutları:**", `\nfly!sor = Sorunuza EVET HAYIR BELKİ cevaplarını verir. \nfly!herkesebendençay = Herkese Çay Alırsınız. \nfly!koş = Koşarsınız.\nfly!çayiç = Çay İçersiniz. \nfly!çekiç = İstediğiniz Kişiye Çekiç Atarsınız.\nfly!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nfly!sunucuresmi = BOT Sunucunun Resmini Atar. \nfly!sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \nfly!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nfly!yazıtura = Yazı Tura Oynarsınız. \nfly!taskağıtmakas = Taş Kağıt Makas Oynarsınız. \nfly!zekayaşım = zekayaşınızı gösterir.`)
   .addField("**Sunucu Yetkilisi Komutları**", `fly!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nfly!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nfly!unban = İstediğiniz Kişinin Yasağını Açar. \nfly!sustur = İstediğiniz Kişiyi Susturur. `)
   .addField("**Botun Ana Komutları**", "fly!yardım = BOT Komutlarını Atar. \nfly!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nfly!ping = BOT Gecikme Süresini Söyler. \nfly!davet = BOT Davet Linkini Atar. \nfly!istatistik = BOT İstatistiklerini Atar.")
-  .addField("**LİNKLER**", "\n\n[DESTEK SUNUCUM](https://discord.gg/mAd5Tgn] \n\n[DAVET LİNKİM](https://discordapp.com/oauth2/authorize?client_id=440900577938112514&scope=bot&permissions=8]")
+  .addField("**LİNKLER**", "\n[DESTEK SUNUCUM](https://discord.gg/mAd5Tgn] \n[DAVET LİNKİM](https://discordapp.com/oauth2/authorize?client_id=440900577938112514&scope=bot&permissions=8]")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
