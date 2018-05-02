@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: 0.0.1' + ayarlar.surum + ' Yapımcı: Baran (HZ.SAĞKOL) **HZ.SAĞKOL**\n\n_**BOTU EKLEMEK İÇİN LİNK:**_\n\nhttps://discordapp.com/oauth2/authorize?client_id=432201025332445184&scope=bot&permissions=8 \n\n**:copyright: 2018 HZ.SAĞKOL**');
+    .setDescription('Bot sürümü: 0.0.1' + ayarlar.surum + ' Yapımcı: Baran (HZ.SAĞKOL) **HZ.SAĞKOL**\n\n_**BOTU EKLEMEK İÇİN LİNK:** https://discordapp.com/oauth2/authorize?client_id=440900577938112514&scope=bot&permissions=8 \n\n**:Copyright: 2018 HZ.SAĞKOL**');
     return message.author.sendEmbed(pingozel)
 };
 
