@@ -15,7 +15,7 @@ exports.run = (client, message) => {
 .addField('• Sunucular        ::  ',`${client.guilds.size.toLocaleString()}`)
 .addField('• Discord.JS sürüm ::  ',`v${Discord.version}`)
 .addField('• Pingim           ::  ',`${client.ping}`)
-.addField('• Yapımcı          ::  ','@Hz.Sağkol#001')
+.addField('• Yapımcı          ::  ','@Hz.Sağkol#0001')
 return message.channel.sendEmbed(embed);
 };
 exports.conf = {
